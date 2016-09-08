@@ -18,8 +18,8 @@ import com.asiatravel.atdragviewdemo.R;
  */
 
 public class SwitchView extends View {
-    private static final int DEF_H = 40;
-    private static final int DEF_W = 90;
+    private static final int DEF_H = 60;
+    private static final int DEF_W = 120;
 
     private int switchViewBgCloseColor;
     private int switchViewBgOpenColor;

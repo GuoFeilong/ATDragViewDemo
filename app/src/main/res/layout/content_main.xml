@@ -28,11 +28,11 @@
     <com.asiatravel.atdragviewdemo.customview.SwitchView
         android:id="@+id/switch_view2"
         android:layout_width="120dp"
-        app:switch_ball_color="@android:color/holo_blue_light"
-        app:switch_bg_open_color="@android:color/holo_orange_light"
         android:layout_height="60dp"
         android:layout_gravity="center"
         android:layout_margin="@dimen/activity_horizontal_margin"
+        app:switch_ball_color="@android:color/holo_blue_light"
+        app:switch_bg_open_color="@android:color/holo_orange_light"
         app:switch_bg_strock_width="2dp" />
 
 </LinearLayout>
