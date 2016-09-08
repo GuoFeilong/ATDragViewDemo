@@ -12,6 +12,8 @@ import android.widget.Toast;
 
 import com.asiatravel.atdragviewdemo.R;
 import com.asiatravel.atdragviewdemo.customview.ATDragView;
+import com.asiatravel.atdragviewdemo.customview.SwitchView;
+import com.orhanobut.logger.Logger;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+        test();
+
         List<String> data = new ArrayList<>();
         data.add("0元");
         data.add("400元");
@@ -49,6 +53,12 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "回调数据Left-->" + leftPostion + "--Right-->" + rightPostion, Toast.LENGTH_SHORT).show();
             }
         });
+
+        SwitchView switchView1 = (SwitchView) findViewById(R.id.switch_view1);
+        SwitchView switchView2 = (SwitchView) findViewById(R.id.switch_view2);
+
+        switchView1.setOpenState(false);
+        switchView2.setOpenState(true);
     }
 
     @Override
@@ -71,5 +81,11 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private void test() {
+        for (int a = 0, b = 0; a < 2; b = ++a) {
+            Logger.e("a===" + a + "---b=" + b);
+        }
     }
 }

@@ -26,4 +26,13 @@
         <item name="seek_text_size">12sp</item>
     </style>
 
+    <style name="def_switch_view">
+        <item name="switch_bg_close_color">#666666</item>
+        <item name="switch_bg_open_color">#8ace00</item>
+        <item name="switch_strock_color">#e6e6e6</item>
+        <item name="switch_ball_color">#ffffff</item>
+        <item name="switch_ball_shadow_color">#ff00ee</item>
+        <item name="switch_bg_strock_width">2dp</item>
+    </style>
+
 </resources>
