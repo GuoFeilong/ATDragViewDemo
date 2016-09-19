@@ -13,6 +13,7 @@ import android.widget.Toast;
 import com.asiatravel.atdragviewdemo.R;
 import com.asiatravel.atdragviewdemo.customview.ATDragView;
 import com.asiatravel.atdragviewdemo.customview.CountDownCircleView;
+import com.asiatravel.atdragviewdemo.customview.MyElongVerticalTextView;
 import com.asiatravel.atdragviewdemo.customview.SwitchView;
 import com.orhanobut.logger.Logger;
 
@@ -70,6 +71,9 @@ public class MainActivity extends AppCompatActivity {
 
         switchView1.setOpenState(false);
         switchView2.setOpenState(true);
+
+        MyElongVerticalTextView verticalTextView = (MyElongVerticalTextView) findViewById(R.id.vt_textView);
+//        verticalTextView.setText("QQ专属");
 
     }
 

@@ -42,4 +42,13 @@
         android:layout_gravity="center_horizontal"
         android:layout_margin="@dimen/activity_horizontal_margin" />
 
+
+    <com.asiatravel.atdragviewdemo.customview.MyElongVerticalTextView
+        android:id="@+id/vt_textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="QQ专属垂直" />
 </LinearLayout>
