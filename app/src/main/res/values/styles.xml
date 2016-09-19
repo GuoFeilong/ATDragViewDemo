@@ -35,4 +35,11 @@
         <item name="switch_bg_strock_width">2dp</item>
     </style>
 
+    <style name="def_countdown_circle_view">
+        <item name="circle_bg_color">#90000000</item>
+        <item name="circle_pb_color">#8ace00</item>
+        <item name="circle_pb_width">1dp</item>
+        <item name="circle_text_color">#ffffff</item>
+        <item name="circle_text_size">12sp</item>
+    </style>
 </resources>

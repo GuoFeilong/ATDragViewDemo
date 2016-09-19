@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 import com.asiatravel.atdragviewdemo.R;
 import com.asiatravel.atdragviewdemo.customview.ATDragView;
+import com.asiatravel.atdragviewdemo.customview.CountDownCircleView;
 import com.asiatravel.atdragviewdemo.customview.SwitchView;
 import com.orhanobut.logger.Logger;
 
@@ -45,12 +46,22 @@ public class MainActivity extends AppCompatActivity {
         data.add("800元");
         data.add("1600元");
         data.add("无限");
+        final CountDownCircleView countDownCircleView = (CountDownCircleView) findViewById(R.id.countdown_circle_view);
+
 
         ATDragView atDragView = (ATDragView) findViewById(R.id.at_dragView);
         atDragView.setData(data, new ATDragView.OnDragFinishedListener() {
             @Override
             public void dragFinished(int leftPostion, int rightPostion) {
                 Toast.makeText(MainActivity.this, "回调数据Left-->" + leftPostion + "--Right-->" + rightPostion, Toast.LENGTH_SHORT).show();
+
+                countDownCircleView.startCountDown(new CountDownCircleView.OnCountDownFinishedListener() {
+                    @Override
+                    public void countDownStop() {
+                        Toast.makeText(MainActivity.this, "计时结束", Toast.LENGTH_LONG).show();
+                    }
+                });
+
             }
         });
 
@@ -59,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
 
         switchView1.setOpenState(false);
         switchView2.setOpenState(true);
+
     }
 
     @Override

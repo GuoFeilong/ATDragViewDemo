@@ -17,4 +17,12 @@
         <attr name="switch_ball_shadow_color" format="color" />
         <attr name="switch_bg_strock_width" format="dimension" />
     </declare-styleable>
+
+    <declare-styleable name="CountDownCircleView">
+        <attr name="circle_bg_color" format="color" />
+        <attr name="circle_pb_color" format="color" />
+        <attr name="circle_pb_width" format="dimension" />
+        <attr name="circle_text_color" format="color" />
+        <attr name="circle_text_size" format="dimension" />
+    </declare-styleable>
 </resources>
