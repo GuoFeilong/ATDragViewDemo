@@ -47,8 +47,20 @@
         android:id="@+id/vt_textView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:textColor="@android:color/white"
         android:layout_gravity="center_horizontal"
         android:gravity="center"
-        android:text="QQ专属垂直" />
+        android:text="QQ专属垂直"
+        android:textColor="@android:color/white"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_test"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="跳转"
+        android:textColor="@color/colorAccent" />
+
 </LinearLayout>
