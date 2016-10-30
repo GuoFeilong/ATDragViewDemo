@@ -21,6 +21,9 @@
         <activity
             android:name=".ui.ListActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ViewShowActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
