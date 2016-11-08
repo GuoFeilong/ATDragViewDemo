@@ -63,4 +63,9 @@
         android:text="跳转"
         android:textColor="@color/colorAccent" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@mipmap/customer_service_flight"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>

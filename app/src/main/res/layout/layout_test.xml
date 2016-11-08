@@ -106,7 +106,7 @@
                     android:layout_centerInParent="true"
                     android:orientation="vertical">
 
-                    <!-- 代码里面设置的￥为12sp，数字为30sp -->
+                    <!-- 代码里面的￥为12sp，数字为30sp -->
                     <TextView
                         android:id="@+id/red_packets_face_value_tv"
                         android:layout_width="wrap_content"

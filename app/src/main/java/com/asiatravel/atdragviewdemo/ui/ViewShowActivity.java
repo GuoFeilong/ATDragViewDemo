@@ -6,7 +6,6 @@ import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
 import android.view.View;
@@ -46,7 +45,8 @@ public class ViewShowActivity extends AppCompatActivity {
 
     private void showNext() {
         AnimatorSet animatorSetHide = new AnimatorSet();
-        final ObjectAnimator transHide = ObjectAnimator.ofFloat(scrollView, "translationX", 0, getScreenWidth());
+        final ObjectAnimator transHide = ObjectAnimator.ofFloat(scrollView, "translationX", 0, -getScreenWidth());
+//        final ObjectAnimator transHide = ObjectAnimator.ofFloat(scrollView, "translationX", 0, getScreenWidth());
         ObjectAnimator alphHide = ObjectAnimator.ofFloat(scrollView, "alpha", 1.F, 0.F);
         animatorSetHide.setDuration(500);
         animatorSetHide.playTogether(transHide, alphHide);
@@ -64,7 +64,8 @@ public class ViewShowActivity extends AppCompatActivity {
 
     private void showContent() {
         AnimatorSet animatorSetShow = new AnimatorSet();
-        ObjectAnimator transShow = ObjectAnimator.ofFloat(scrollView, "translationX", -getScreenWidth(), 0);
+        ObjectAnimator transShow = ObjectAnimator.ofFloat(scrollView, "translationX", getScreenWidth(), 0);
+//        ObjectAnimator transShow = ObjectAnimator.ofFloat(scrollView, "translationX", -getScreenWidth(), 0);
         ObjectAnimator alphShow = ObjectAnimator.ofFloat(scrollView, "alpha", 0F, 1F);
         animatorSetShow.playTogether(transShow, alphShow);
         animatorSetShow.setDuration(500);
