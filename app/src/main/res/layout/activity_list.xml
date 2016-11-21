@@ -27,12 +27,13 @@
             android:id="@+id/atv_test"
             android:layout_width="match_parent"
             android:layout_height="65dp"
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="100dp"
             android:background="@color/colorAccent"
             app:and_text_anim_down="true"
             app:and_text_anim_duration_second="2"
             app:and_text_color="@android:color/holo_green_light"
-            app:and_text_desc="iPhone 8 plus 只要998,只要998 马上带回家!!">
+            app:and_text_desc="iPhone 8 plus 只要998,只要998 马上带回家!!"
+            app:and_text_size="18">
 
         </com.asiatravel.atdragviewdemo.customview.AndTextViewLayout>
 
@@ -44,7 +45,8 @@
             app:and_text_anim_duration_second="2"
             app:and_text_anim_up="true"
             app:and_text_color="@android:color/holo_orange_light"
-            app:and_text_desc="三星note70核武器手机\n让小偷死的后悔">
+            app:and_text_desc="三星note70核武器手机\n让小偷死的后悔"
+            app:and_text_size="17">
 
         </com.asiatravel.atdragviewdemo.customview.AndTextViewLayout>
 
@@ -55,7 +57,8 @@
             android:background="#eceeee"
             app:and_text_anim_left="true"
             app:and_text_color="@android:color/holo_purple"
-            app:and_text_desc="小米note500,仿iPhone100!!就是抄袭你能咋地">
+            app:and_text_desc="小米note500,仿iPhone100!!就是抄袭你能咋地"
+            app:and_text_size="16">
 
         </com.asiatravel.atdragviewdemo.customview.AndTextViewLayout>
 
@@ -66,7 +69,8 @@
             android:background="#dddcee"
             app:and_text_anim_right="true"
             app:and_text_color="@android:color/holo_red_light"
-            app:and_text_desc="英语界做手机的扛把子,老罗\n依然不承认自己用的Android系统,垂死挣扎!!哈哈">
+            app:and_text_desc="英语界做手机的扛把子,老罗\n依然不承认自己用的Android系统,垂死挣扎!!哈哈"
+            app:and_text_size="15">
 
         </com.asiatravel.atdragviewdemo.customview.AndTextViewLayout>
 
