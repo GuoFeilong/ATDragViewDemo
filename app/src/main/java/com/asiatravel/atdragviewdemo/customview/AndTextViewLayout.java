@@ -7,6 +7,8 @@ import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.Gravity;
+import android.view.animation.BounceInterpolator;
+import android.view.animation.LinearInterpolator;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -93,6 +95,7 @@ public class AndTextViewLayout extends LinearLayout {
     public void startAndTextAnim() {
         ObjectAnimator objectAnimator = creatCurrentAnimation();
         objectAnimator.setDuration(aniDuration);
+        objectAnimator.setInterpolator(new LinearInterpolator());
         objectAnimator.setRepeatCount(ValueAnimator.INFINITE);
         objectAnimator.start();
     }
