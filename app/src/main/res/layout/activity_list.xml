@@ -1,19 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
     android:orientation="vertical">
 
     <ListView
         android:id="@+id/lv_test"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:clipToPadding="true"
         android:listSelector="@android:color/transparent"
         android:overScrollMode="never"
         android:scrollbars="none">
 
     </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical">
+
+        <com.asiatravel.atdragviewdemo.customview.AndTextViewLayout
+            android:id="@+id/atv_test"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="2dp"
+            android:background="@color/colorAccent"
+            app:and_text_anim_down="true"
+            app:and_text_anim_duration_second="2"
+            app:and_text_color="@android:color/holo_green_light"
+            app:and_text_desc="iPhone 8 plus 只要998,只要998 马上带回家!!">
+
+        </com.asiatravel.atdragviewdemo.customview.AndTextViewLayout>
+
+        <com.asiatravel.atdragviewdemo.customview.AndTextViewLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="2dp"
+            android:background="@color/colorPrimary"
+            app:and_text_anim_duration_second="2"
+            app:and_text_anim_up="true"
+            app:and_text_color="@android:color/holo_orange_light"
+            app:and_text_desc="三星note70核武器手机\n让小偷死的后悔">
+
+        </com.asiatravel.atdragviewdemo.customview.AndTextViewLayout>
+
+        <com.asiatravel.atdragviewdemo.customview.AndTextViewLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="2dp"
+            android:background="#eceeee"
+            app:and_text_anim_left="true"
+            app:and_text_color="@android:color/holo_purple"
+            app:and_text_desc="小米note500,仿iPhone100!!就是抄袭你能咋地">
+
+        </com.asiatravel.atdragviewdemo.customview.AndTextViewLayout>
+
+        <com.asiatravel.atdragviewdemo.customview.AndTextViewLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="2dp"
+            android:background="#dddcee"
+            app:and_text_anim_right="true"
+            app:and_text_color="@android:color/holo_red_light"
+            app:and_text_desc="英语界做手机的扛把子,老罗\n依然不承认自己用的Android系统,垂死挣扎!!哈哈">
+
+        </com.asiatravel.atdragviewdemo.customview.AndTextViewLayout>
+
+
+    </LinearLayout>
 
 </LinearLayout>

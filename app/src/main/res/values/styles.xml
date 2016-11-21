@@ -42,4 +42,17 @@
         <item name="circle_text_color">#ffffff</item>
         <item name="circle_text_size">12sp</item>
     </style>
+
+
+    <style name="def_and_text_layout">
+        <item name="and_text_color">#ffffff</item>
+        <item name="and_text_size">14</item>
+        <item name="and_text_anim_up">false</item>
+        <item name="and_text_anim_down">false</item>
+        <item name="and_text_anim_left">false</item>
+        <item name="and_text_anim_right">false</item>
+        <item name="and_text_anim_duration_second">4</item>
+        <item name="and_text_background_color">#00000000</item>
+        <item name="and_text_desc">滚动吧~~我的滚动条\n~~翻腾吧~~我曹</item>
+    </style>
 </resources>

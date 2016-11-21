@@ -25,4 +25,16 @@
         <attr name="circle_text_color" format="color" />
         <attr name="circle_text_size" format="dimension" />
     </declare-styleable>
+
+    <declare-styleable name="AndTextViewLayout">
+        <attr name="and_text_color" format="color" />
+        <attr name="and_text_size" format="integer" />
+        <attr name="and_text_anim_up" format="boolean" />
+        <attr name="and_text_anim_down" format="boolean" />
+        <attr name="and_text_anim_left" format="boolean" />
+        <attr name="and_text_anim_right" format="boolean" />
+        <attr name="and_text_anim_duration_second" format="integer" />
+        <attr name="and_text_background_color" format="color" />
+        <attr name="and_text_desc" format="string" />
+    </declare-styleable>
 </resources>
