@@ -5,7 +5,6 @@
     android:gravity="center_vertical">
 
     <LinearLayout
-        android:id="@+id/red_packets_layout"
         android:layout_width="match_parent"
         android:layout_height="90dp"
         android:layout_marginBottom="16dp"
@@ -13,7 +12,6 @@
         android:orientation="horizontal">
 
         <LinearLayout
-            android:id="@+id/red_packets_left_layout"
             android:layout_width="34dp"
             android:layout_height="match_parent"
             android:layout_gravity="left|center_vertical"
@@ -22,7 +20,6 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/red_packets_business_type"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -49,7 +46,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/red_packets_activity_name_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingRight="6dp"
@@ -59,7 +55,6 @@
 
 
                 <TextView
-                    android:id="@+id/red_packets_tips"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
@@ -70,7 +65,6 @@
                     android:visibility="visible" />
 
                 <TextView
-                    android:id="@+id/red_packets_effective_date_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
@@ -81,7 +75,6 @@
             </LinearLayout>
 
             <View
-                android:id="@+id/hotel_order_hongbao_select_spit"
                 android:layout_width="2dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="12dp"
@@ -93,7 +86,6 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/iv_red_pack_expired_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
@@ -108,7 +100,6 @@
 
                     <!-- 代码里面的￥为12sp，数字为30sp -->
                     <TextView
-                        android:id="@+id/red_packets_face_value_tv"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
@@ -118,7 +109,6 @@
                         android:textSize="24sp" />
 
                     <TextView
-                        android:id="@+id/red_packets_face_value_desc_tv"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"

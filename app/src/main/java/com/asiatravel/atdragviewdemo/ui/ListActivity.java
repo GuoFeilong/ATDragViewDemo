@@ -38,6 +38,10 @@ public class ListActivity extends AppCompatActivity {
         });
     }
 
+    private String testALV(String data){
+        return "";
+    }
+
     class ListAdapter extends BaseAdapter {
 
         @Override
