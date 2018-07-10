@@ -37,4 +37,32 @@
         <attr name="and_text_background_color" format="color" />
         <attr name="and_text_desc" format="string" />
     </declare-styleable>
+
+    <declare-styleable name="MyElongScaleSeekBar">
+        <attr name="scale_progress_normal_color" format="color" />
+        <attr name="scale_progress_section_color" format="color" />
+        <attr name="scale_left_ball_bg_color" format="color" />
+        <attr name="scale_left_ball_stroke_color" format="color" />
+        <attr name="scale_left_ball_stroke_with" format="dimension" />
+        <attr name="scale_right_ball_bg_color" format="color" />
+        <attr name="scale_right_ball_stroke_color" format="color" />
+        <attr name="scale_right_ball_stroke_with" format="dimension" />
+        <attr name="scale_ball_radio" format="dimension" />
+        <attr name="scale_ball_shadow_radio" format="dimension" />
+        <attr name="scale_ball_shadow_color" format="color" />
+        <attr name="scale_seek_height" format="dimension" />
+        <attr name="scale_left_text_color" format="dimension" />
+        <attr name="scale_left_text_size" format="dimension" />
+        <attr name="scale_right_text_color" format="dimension" />
+        <attr name="scale_right_text_size" format="dimension" />
+        <attr name="scale_text_margin_ball" format="dimension" />
+        <attr name="scale_ball_stick_height" format="dimension" />
+        <attr name="scale_ball_stick_width" format="dimension" />
+        <attr name="scale_ball_stick_margin" format="dimension" />
+        <attr name="scale_ball_stick_color" format="color" />
+        <attr name="scale_progress_unit" format="integer" />
+        <attr name="scale_symbol_front" format="string" />
+
+    </declare-styleable>
+
 </resources>

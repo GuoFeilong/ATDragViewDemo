@@ -55,4 +55,33 @@
         <item name="and_text_background_color">#00000000</item>
         <item name="and_text_desc">滚动吧~~我的滚动条\n~~翻腾吧~~我曹</item>
     </style>
+
+    <style name="default_scale_seekbar_style">
+        <item name="scale_progress_normal_color">@color/color_E0E0E0</item>
+        <item name="scale_progress_section_color">@color/color_4499ff</item>
+        <item name="scale_left_ball_bg_color">@color/white</item>
+        <item name="scale_left_ball_stroke_color">@color/color_E6E6E6</item>
+        <item name="scale_left_ball_stroke_with">@dimen/dimens_1_px</item>
+        <item name="scale_right_ball_bg_color">@color/white</item>
+        <item name="scale_right_ball_stroke_color">@color/color_E6E6E6</item>
+        <item name="scale_right_ball_stroke_with">@dimen/dimens_1_px</item>
+        <item name="scale_ball_radio">@dimen/dimens_10_dp</item>
+        <item name="scale_ball_shadow_radio">@dimen/dimens_1_dp</item>
+        <item name="scale_ball_shadow_color">@color/color_E0E0E0</item>
+        <item name="scale_seek_height">@dimen/dimens_2_dp</item>
+        <item name="scale_left_text_color">@color/color_888888</item>
+        <item name="scale_left_text_size">@dimen/dimens_12_sp</item>
+        <item name="scale_right_text_color">@color/color_888888</item>
+        <item name="scale_right_text_size">@dimen/dimens_12_sp</item>
+        <item name="scale_text_margin_ball">@dimen/dimens_4_dp</item>
+        <item name="scale_progress_unit">1</item>
+        <item name="scale_ball_stick_height">@dimen/dimens_10_dp</item>
+        <item name="scale_ball_stick_width">1.5dp</item>
+        <item name="scale_ball_stick_margin">2dp</item>
+        <item name="scale_ball_stick_color">@color/color_E7E7E7</item>
+        <item name="scale_symbol_front">¥</item>
+    </style>
+
+
+
 </resources>
